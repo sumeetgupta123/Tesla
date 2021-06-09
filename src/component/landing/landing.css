@@ -1,0 +1,227 @@
+.headorder {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  height: 50px;
+  padding: 0 20px;
+  background: black;
+  z-index: 9;
+}
+.head-img {
+  position: absolute;
+  left: 20px;
+  height: 50px;
+}
+.notify-img {
+  height: 30px;
+  width: 30px;
+}
+.butn {
+  background: transparent;
+  border: none;
+  height: 50px;
+  width: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+.count {
+  height: 15px;
+  width: 20px;
+  border-radius: 10px;
+  background: red;
+  color: white;
+  font-size: 8px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+.sidenavbar {
+  position: fixed;
+  top: 50px;
+  width: 215px;
+  background: white;
+  box-shadow: 3px 0px 6px #00000026;
+  height: calc(100vh - 50px);
+  z-index: 9;
+  padding-top: 10px;
+}
+.menubtn {
+  width: 250px;
+  padding: 2px;
+  text-align: left;
+  padding-left: 20px;
+  height: 40px;
+  font-family: "WiproAkkuratTT-Regular";
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border: none;
+  line-height: 40px;
+  font-size: 18px;
+}
+.menubtn:hover {
+  color: deeppink;
+  text-decoration: none;
+}
+.container-dash {
+  position: absolute !important;
+  top: 50px;
+  padding-left: 215px !important;
+  padding-right: 0 !important;
+}
+.top-card {
+  background: white;
+  box-shadow: 0px 0px 6px #00000026;
+  padding: 20px 20px;
+}
+.Search-input {
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 5px 10px;
+  width: 300px;
+  border-radius: 4px 0 0 4px;
+}
+.Search-btn {
+  border: none;
+  background: deeppink;
+  color: white;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 0;
+  position: relative;
+  bottom: 1px;
+}
+.account-btn{
+  border: none;
+  background: deeppink;
+  color: white;
+  height: 30px;
+  padding: 0 60px;
+  border-radius: 0;
+}
+.help-card {
+  border-radius: 4px;
+  background-color: white;
+  padding: 30px 20px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 6px #00000026;
+}
+.detail-card {
+  border-radius: 4px;
+  background-color: white;
+  padding: 20px 20px 0;
+  margin-top: 30px;
+  box-shadow: 0px 0px 6px #00000026;
+}
+.tag-img {
+  height: 40px;
+  width: 40px;
+}
+.details {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
+.centeralign {
+  text-align: center;
+}
+.read-btn {
+  border: none;
+  background: gray;
+  color: white;
+  height: 30px;
+  width: auto;
+  padding: 0px 20px;
+}
+.Account-container {
+  padding: 40px 60px;
+}
+.farmer-logo {
+  height: 146px;
+  width: 260px;
+  border-radius: 10px;
+}
+.alignitem{
+  display: inline-flex;
+}
+.Account-card{
+  box-shadow: 0px 0px 6px #00000026;
+  padding: 30px 0
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #2f81ff;
+  color: white;
+  line-height: 30px;
+  margin-right: 30px;
+  position: relative;
+  top: 50px;
+}
+.line{
+  height: 135px;
+  width: 5px;
+  background: #2f81ff;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  right: 4px;
+}
+
+/* //view more css starts */
+.more-wrap{
+  padding: 20px !important;
+}
+.banner{
+  height: 200px;
+  width: 100%;
+}
+.label-more{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.edit-btn{
+  border: none;
+  background: transparent;
+  color: #2fd9ff;
+  font-weight: bold;
+}
+.delete-btn{
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  color: red;
+}
+.table td, .table th{
+  border: none !important;
+}
+.textarea {
+  border: 1px solid #DEDEDF;
+  border-radius: 4px;
+  resize: none;
+  height: 77px;
+  padding: 10px;
+  font-family: "WiproAkkuratTT-Regular";
+}
+.p-60{
+  padding: 20px 60px !important;
+  border-bottom: none !important;
+}
+.close-btn{
+  border: 1px solid gray;
+  background: transparent;
+}
+.back-btn{
+  background: transparent;
+  border: none;
+}

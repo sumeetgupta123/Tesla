@@ -1,0 +1,637 @@
+.btn-container {
+  position: fixed !important;
+  bottom: 5rem;
+  text-align: center;
+}
+.home-btn {
+  height: 40px;
+  padding: 0px 50px !important;
+  border-radius: 20px !important;
+}
+.label {
+  color: black;
+  font-size: 24px;
+  top: 5em;
+}
+.logo {
+  position: fixed;
+  left: 1em;
+  top: 0em;
+  width: 10%;
+  z-index: 9;
+}
+.homeimage {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-image: url("./assets/home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.child-container {
+  margin-top: 70px;
+}
+.child-heading {
+  color: grey;
+  text-align: center;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.car-cards {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+  margin-right: 20px;
+  height: 240px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.car-cards:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+.car-image {
+  width: 100%;
+  height: 150px;
+}
+.displayname {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.range {
+  text-align: right;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.label-cr {
+  color: grey;
+  font-size: 10px;
+  padding: 0 !important;
+  text-align: center;
+}
+.value {
+  color: black;
+  font-size: 12px;
+  padding: 0 !important;
+  text-align: center;
+}
+.no_pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.details-container {
+  position: relative;
+}
+.center {
+  text-align: center;
+  z-index: 1;
+  position: absolute !important;
+  top: 2em;
+}
+.details-bottom {
+  position: relative;
+}
+.bottom-right {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0vh;
+  right: 0;
+  background: #000000b8;
+  padding: 20px 40px;
+  color: white;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.bottom-img {
+  width: 100%;
+}
+.top-img {
+  width: 100%;
+  height: 100vh;
+}
+label {
+  margin-bottom: 0px !important;
+  margin-top: 20px;
+}
+.details-btn {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 0 40px;
+  height: 40px;
+  background: transparent;
+  color: white;
+  width: 170px;
+}
+.order-btn {
+  padding: 0 50px !important;
+  border-radius: 20px !important;
+  background: lightslategrey;
+  position: absolute;
+  left: 45%;
+  bottom: 4em;
+  z-index: 1;
+  height: 40px;
+}
+
+.order-container {
+  height: 100%;
+}
+.model-tesla {
+  width: 70%;
+  position: relative;
+  top: 0em;
+  margin: 0 auto;
+}
+.align-center {
+  text-align: center;
+}
+.head {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+.values {
+  color: grey;
+  font-size: 14px;
+  text-align: center;
+}
+.category-btn {
+  border: 2px solid grey;
+  background: white;
+  border-radius: 30px;
+  height: 50px;
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.Selected {
+  border: 2px solid #2f81ff !important;
+}
+
+.paint-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+  margin-right: 20px;
+  border: 1px solid transparent;
+  padding: 0;
+}
+.color-name {
+  position: absolute;
+  top: 4em;
+  left: 7em;
+  font-weight: bold;
+  font-size: 17px;
+}
+.color-price {
+  position: absolute;
+  top: 4em;
+  right: 9em;
+  color: gray;
+  font-size: 17px;
+}
+.wheel-name {
+  position: absolute;
+  top: 7em;
+  left: 5em;
+  font-weight: bold;
+  font-size: 17px;
+}
+.wheel-price {
+  position: absolute;
+  top: 7em;
+  right: 7em;
+  color: gray;
+  font-size: 17px;
+}
+.wheel-btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 50px;
+  padding: 0;
+  border: 1px solid transparent;
+}
+.wheel-img {
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+  margin-right: 50px;
+  border: 1px solid transparent;
+}
+.wheel-img-order {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+  border: 1px solid transparent;
+}
+.head-rule {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+}
+.orderplace-btn {
+  padding: 0 50px !important;
+  border-radius: 20px !important;
+  background-color: #2f81ff !important;
+  height: 40px;
+  width: 50%;
+  color: white !important;
+  border: none !important;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+  margin-bottom: 100px;
+}
+.self-btn {
+  background: gray;
+  color: white;
+  padding: 0 40px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pad-0-150 {
+  padding: 0 33% !important;
+}
+.head-order {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+.values-order {
+  color: grey;
+  font-size: 14px;
+  text-align: left;
+}
+.final-price {
+  height: 50px;
+  border-radius: 30px;
+  padding: 7px 20px;
+  background-color: lightgray;
+  color: black;
+  font-size: 23px;
+  width: 300px;
+  font-weight: bold;
+}
+.explore-btn {
+  height: 40px;
+  border-radius: 20px;
+  padding: 2px 20px;
+  background-color: #2f81ff;
+  color: white;
+  font-size: 16px;
+  width: 300px !important;
+  border: none;
+  margin: 0 20px;
+}
+.invoice-btn {
+  height: 40px;
+  border-radius: 20px;
+  padding: 2px 20px;
+  background-color: #5a5959;
+  color: white;
+  font-size: 16px;
+  width: 300px !important;
+  border: none;
+  margin: 0 20px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+.pad-0-35 {
+  padding: 0 35% 0 35% !important;
+}
+.paint-image {
+  height: 70px;
+  width: 70px;
+}
+.paint-img {
+  height: 46px;
+  width: 46px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.car-specsinfo {
+  position: absolute !important;
+}
+.height-50 {
+  height: 50px;
+}
+/* //slider css starts */
+
+.Slider .slick-arrow {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  background: lightgray;
+  color: white;
+  outline: none;
+  border-radius: 50%;
+}
+.slick-next {
+  right: 4rem;
+  z-index: 2;
+}
+.slick-prev {
+  left: 4rem;
+  z-index: 2;
+}
+.fixed-layout {
+  position: fixed !important;
+}
+.scroll-layout {
+  position: absolute !important;
+  right: 0;
+}
+/* popupcss starts */
+.popup-box {
+  position: fixed;
+  background: rgb(0 0 0 / 60%);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 14px;
+  padding: 30px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 12px);
+  top: calc(100vh - 85vh - 33px);
+  background: lightcoral;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+}
+.about-btn {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  background: white;
+  padding: 0;
+  position: fixed;
+  right: 2em;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 50%);
+  top: 2em;
+}
+.pop-head {
+  color: black;
+  font-size: 24px;
+}
+.pop-body {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+/* popupcss starts */
+.loader-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 200px 0;
+  background: rgb(181 181 181 / 50%);
+  z-index: 9;
+}
+.loader-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-gif {
+  width: 25%;
+}
+/* scroll down css */
+.scroller {
+  position: absolute;
+  z-index: 1;
+  bottom: 4em;
+  right: 4em;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid gray;
+  border-radius: 100%;
+  box-sizing: border-box;
+  background: transparent;
+}
+.scroller::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+.scroller::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgb(255 255 255 / 75%);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 3s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 50px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 50px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .model-tesla {
+    margin-top: 100px;
+    border-radius: 40px;
+  }
+  .fixed-layout {
+    position: relative !important;
+  }
+  .scroll-layout {
+    position: relative !important;
+    right: 0;
+  }
+  .loader-gif {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .scroller{
+    display: none;
+  }
+  .loader-gif {
+    width: 60%;
+  }
+  .car-cards{
+    margin-right: 0;
+  }
+  .about-btn {
+    right: 1em;
+    bottom: 1em;
+    top: auto;
+  }
+  .homeimage {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url("./assets/mobilewall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .slick-next {
+    right: 2rem;
+    z-index: 2;
+  }
+  .slick-prev {
+    left: 2rem;
+    z-index: 2;
+  }
+  .model-tesla {
+    margin-top: 100px;
+  }
+  .fixed-layout {
+    position: relative !important;
+  }
+  .scroll-layout {
+    position: relative !important;
+    right: 0;
+  }
+  .logo {
+    width: 100px;
+  }
+  .top-img {
+    height: 75vh;
+    transform: scale3d(2.5, 1, 1);
+  }
+  .bottom-img {
+    height: 100vh;
+    opacity: 0;
+  }
+  .order-btn {
+    position: relative;
+    left: 0;
+    bottom: 6em;
+  }
+  .bottom-right {
+    width: 100%;
+    background-image: url('./assets/black-tesla.jpg');
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 20px 20px;
+  }
+  .po-abs {
+    position: absolute !important;
+  }
+  .details-btn {
+    padding: 0;
+    width: 100%;
+  }
+  .pad-0-150 {
+    padding: 0 !important;
+  }
+  .pad-0-35 {
+    padding: 0 !important;
+  }
+}
+
+.container-dash{
+  position: absolute !important;
+  top:50px;
+  padding-left: 215px !important;
+  padding-right: 0 !important;
+}
